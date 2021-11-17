@@ -1,3 +1,7 @@
+.foto {
+  box-shadow: 1px 1px 2px;
+  border-radius: 50%;
+}
 .header {
   max-width: 1200px;
   display: flex;
@@ -11,6 +15,11 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+}
+.header-menu a:hover {
+  text-decoration: underline;
+  color: #141414;
+  border-radius: 5px;
 }
 .header-menu a {
   font-size: 1.125rem;
