@@ -28,6 +28,13 @@
   text-decoration: none;
 }
 
+.seta {
+  display: block;
+  float: right;
+  height: 80px;
+  width: 100px;
+  cursor: pointer;
+}
 .footer-copy {
   font-size: 1.125rem;
   color: #8f8f8f;

@@ -24,7 +24,7 @@
 }
 
 .formacao .subtitulo {
-  color: #000;
+  color: rgb(51, 50, 50);
   max-width: 5ch;
 }
 .formacao-texto {
@@ -119,6 +119,10 @@
 .cursos li {
   display: flex;
   justify-content: space-between;
+}
+.cursos li a {
+  text-decoration: none;
+  color: #fff;
 }
 
 @media (max-width: 800px) {

@@ -66,6 +66,7 @@
   align-content: start;
 }
 .empresa-habilidade li {
+  text-transform: capitalize;
   font-size: 0.875rem;
   line-height: 1.4;
   border-radius: 4px;
