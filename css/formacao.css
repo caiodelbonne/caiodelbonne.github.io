@@ -90,6 +90,11 @@
   margin-bottom: 30px;
   position: relative;
 }
+
+.cursos ul li:nth-child(odd) {
+  background: #616161;
+}
+
 .formacao-extra h3::before {
   display: block;
   content: "";
