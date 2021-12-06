@@ -58,3 +58,17 @@
     float: left;
   }
 }
+
+/* ANIMÇAO  */
+.seta {
+  animation: animaSeta 1s infinite alternate-reverse;
+}
+
+@keyframes animaSeta {
+  from {
+    transform: translateY(30px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
