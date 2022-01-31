@@ -60,7 +60,9 @@
 }
 
 /* ANIMÇAO  */
+
 .seta {
+  background: inherit;
   animation: animaSeta 1s infinite alternate-reverse;
 }
 
