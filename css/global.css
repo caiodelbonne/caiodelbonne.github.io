@@ -3,6 +3,17 @@ body {
   margin: 0px;
   color: #141414;
 }
+
+.fonte {
+  box-sizing: border-box;
+  background: rgba(14, 6, 6, 0.15);
+  border-radius: 50%;
+  text-align: center;
+  width: 40px;
+  padding: 10px;
+  margin: auto auto;
+  cursor: pointer;
+}
 h1,
 h2,
 h3,
