@@ -18,5 +18,9 @@ interno.forEach((link) => {
 const seta = document.querySelector(".seta");
 
 seta.addEventListener("click", function () {
-  window.scrollTo(0, 0);
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
 });
