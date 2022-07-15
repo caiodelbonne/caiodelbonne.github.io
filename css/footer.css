@@ -62,7 +62,6 @@
 /* ANIMÇAO  */
 
 .seta {
-  background-color: #ccc;
   position: fixed;
   bottom: 0px;
   right: 25px;
@@ -70,6 +69,7 @@
   z-index: 99;
   background: inherit;
   animation: animaSeta 1s infinite alternate-reverse;
+  display: none;
 }
 
 @keyframes animaSeta {

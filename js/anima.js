@@ -17,6 +17,15 @@ interno.forEach((link) => {
 
 const seta = document.querySelector(".seta");
 
+function mostrarSeta() {
+  if (window.scrollY < 1000) {
+    document.querySelector(".seta").style.display = "none";
+  } else {
+    document.querySelector(".seta").style.display = "block";
+  }
+}
+window.addEventListener("scroll", mostrarSeta);
+
 seta.addEventListener("click", function () {
   window.scrollTo({
     top: 0,
